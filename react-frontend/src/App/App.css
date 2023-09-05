@@ -1,0 +1,73 @@
+html {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+    background-color: black !important;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+/* for monaco editor */ 
+.scrollbar .slider::before, .slider::after {
+    display: none !important;
+}
+
+
+/* temporarily hard-coded; should be implemented via theme */
+
+#ledger-select-container [class*="MuiFormControl-root"] * {
+    color: snow;
+}
+
+[class*="MuiBox-root"] {
+    height: 30px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+#ledger-select-container [class*="MuiFormControl-root"] {
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
+[class*="MuiInputBase-root"] {
+    font-size: 14px !important;
+    height: 100% !important;
+}
+
+[class*="MuiInputBase-input"] {
+    padding: 0 8px !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+[class*="MuiInputBase-root"]::before {
+    border-bottom: none !important;
+}
+
+#test-container {
+    transition: 0.25s ease-in-out;
+}
+
+.monaco-editor, .monaco-editor * {
+    transition: 0s !important;
+}
+
+[class*="MuiPopover-paper"] {
+    background-color: rgba(25,43,52,1) !important;
+    color: snow !important;
+}
+
+[class*="MuiMenuItem-root"] {
+    font-size: 14px !important;
+}

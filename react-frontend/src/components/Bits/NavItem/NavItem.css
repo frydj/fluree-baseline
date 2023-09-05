@@ -1,0 +1,15 @@
+.nav-item {
+  text-decoration: none;
+  font-weight: 600;
+  color: darkslategray;
+  font-size: 14px;
+  border-right: 1px rgba(20,20,20,0.15) solid;
+  height: 100%;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

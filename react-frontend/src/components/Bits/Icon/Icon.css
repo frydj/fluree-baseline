@@ -1,0 +1,32 @@
+/* small icon */
+.icon-sm {
+  width: 15px;
+  height: 15px;
+}
+
+.icon-sm svg {
+  width: 15px;
+  height: 15px;
+}
+
+/* medium icon */
+.icon-md {
+  width: 25px;
+  height: 25px;
+}
+
+.icon-md svg {
+  width: 25px;
+  height: 25px;
+}
+
+/* large icon */
+.icon-lg {
+  width: 35px;
+  height: 35px;
+}
+
+.icon-lg svg {
+  width: 35px;
+  height: 35px;
+}

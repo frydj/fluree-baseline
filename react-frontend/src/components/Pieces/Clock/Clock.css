@@ -1,0 +1,3 @@
+.react-clock__second-hand {
+  transition: transform cubic-bezier(.68,0,.27,1.55) .2s;
+}

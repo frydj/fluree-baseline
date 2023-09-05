@@ -1,0 +1,9 @@
+.top-nav {
+  background-color: lightgray;
+  flex: 1;
+  min-width: 100vw;
+}
+
+.top-nav-inner {
+  /* outline: 1px solid red; */
+}
